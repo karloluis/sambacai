@@ -8,6 +8,8 @@ body {
   background-color: $light4;
 }
 
+
+
 header {
   height: 87px;
   width: 100%;
@@ -18,13 +20,18 @@ header {
   .navbar {
     display: flex;
     margin-top: 0.2em;
+    padding-top: 0.7em;
     .active {
       background-color: $blend45;
+      color: $darkfont;
     }
 
     a {
       font-size: 1.3em;
-      color: $darkfont;
+    }
+
+    .hover {
+      background-color: $color2;
     }
   }
 }
