@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Nunito', sans-serif;
-  background-color: $color6;
+  background-color: $light4;
 }
 
 header {
@@ -13,11 +13,11 @@ header {
   width: 100%;
 
   color: $lightfont;
-  background-color: $color1;
+  background-color: $color6;
 
   .navbar {
     display: flex;
-    margin-top: 2em;
+    margin-top: 0.2em;
     .active {
       background-color: $blend45;
     }
