@@ -36,7 +36,7 @@ header {
 
     &:hover {
       font-size: 1em;
-      a {
+      a:focus {
         background-color: $color4;
       }
     }
