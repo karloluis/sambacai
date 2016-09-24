@@ -23,15 +23,22 @@ header {
     padding-top: 0.7em;
     .active {
       background-color: $blend45;
-      color: $darkfont;
+      a {
+        font-size: 1em;
+        color: $darkfont;
+      }
     }
 
     a {
       font-size: 1.3em;
+      color: $lightfont;
     }
 
-    .hover {
-      background-color: $color2;
+    &:hover {
+      background-color: $color4;
+      a {
+        font-size: 1em;
+      }
     }
   }
 }
