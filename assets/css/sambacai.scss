@@ -3,26 +3,7 @@
 
 body {
   font-family: 'Nunito', sans-serif;
-  background-color: $light4;
-}
-
-#post-header {
-  .date{
-    padding-left: 20px;
-  }
-}
-
-#post-content{
-  margin-top: 15px;
-  p {
-    font-size: 1.4em;
-    text-align: justify;
-  }
-}
-
-.bg-dark {
-  color: $lightfont;
-  background-color: $color1;
+  background-color: $color6;
 }
 
 header {
@@ -30,7 +11,7 @@ header {
   width: 100%;
 
   color: $lightfont;
-  background-color: $color4;
+  background-color: $color1;
 
   .navbar {
     display: flex;
