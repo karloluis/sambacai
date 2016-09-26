@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include nav.html %}
+
+    <div class="container-fluid">
+      <div class="col-md-8">
+        {{content}}
+      </div>
+
+      <div id="fbside" class="col-md-4">
+        <div class="fb-page well well-sm" data-href="https://www.facebook.com/Sambacaipr" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"></div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>
