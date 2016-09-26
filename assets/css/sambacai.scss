@@ -29,16 +29,17 @@ header {
     margin-top: 0.2em;
     padding-top: 0.7em;
     .active {
-      background-color: $blend45;
       a {
-        font-size: 1em;
+        font-size: 1.5em;
         color: $darkfont;
+        background-color: $blend45;
       }
     }
 
     &:hover {
-      font-size: 1em;
       a:hover {
+        font-size: 1em;
+        color: $darkfont;
         background-color: $color4;
       }
     }
