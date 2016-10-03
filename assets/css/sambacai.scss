@@ -8,16 +8,12 @@ body {
   background-color: $light4;
 }
 
-
-
 header {
   height: 87px;
   width: 100%;
 
   color: $lightfont;
   background-color: $color6;
-
-
 
   .navbar {
     a {
@@ -53,3 +49,9 @@ header {
 
    background-color: $color6;
  }
+
+   #sobre {
+     p {
+       text-align: justify;
+     }
+   }
